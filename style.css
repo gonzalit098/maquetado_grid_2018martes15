@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background-color: #133FED;
+  background-color: black;
   front-size: large; 
     
   display: grid;
@@ -21,7 +21,7 @@ header {
   
 }
 nav {
-  background-color: white;
+  background-color: grey;
 }
 section {
   background-color: #FE1010;
@@ -40,11 +40,14 @@ article {
   padding: 10px;
 }
 footer {
-  background-color: green;
+  background-color: LightYellow;
   grid-column: 1 / -1;
 }
 section > h2 {
   background-color: darkgreen;
   grid-column: 1 / -1;
   
+}
+header, footer, h2, h3 {
+  text-align: center;
 }
