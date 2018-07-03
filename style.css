@@ -1,7 +1,14 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background-color: #133FED
+  background-color: #133FED;
+  front-size: large; 
+    
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
 }
 
 h1 {
@@ -9,16 +16,35 @@ h1 {
   color: #373fff;
 }
 header {
-   background-color: LawnGreen
+   background-color: LawnGreen;
+      grid-column: 1 / -1;
   
-
 }
 nav {
-  background-color: white
+  background-color: white;
 }
 section {
-  background-color: #FE1010
+  background-color: #FE1010;
+  grid-column: 2 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  
+  
+  
 }
 article {
-  background-color: aqua
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+}
+footer {
+  background-color: green;
+  grid-column: 1 / -1;
+}
+section > h2 {
+  background-color: darkgreen;
+  grid-column: 1 / -1;
+  
 }
