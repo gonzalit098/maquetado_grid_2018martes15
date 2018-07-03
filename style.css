@@ -1,0 +1,21 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #133FED
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+header {
+   background-color: LawnGreen
+  
+
+}
+nav {
+  background-color: white
+}
+section {
+  background-color: #FE1010
+}
