@@ -1,14 +1,15 @@
-<!DOCTYPE html>
 <html lang="en">
+
   <head>
 
   
     <title>Golosinas!!</title>
 
     
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/estilo.css">
     
-    <script src="/script.js" defer></script>
+    <script src="/cliente.js" defer></script>
+
  
   </head>  
   
@@ -32,7 +33,7 @@
     <h2>Venta de Golosinas</h2>
     <article>
       <h3>Alfajor</h3>
-      Alfajores Capitan
+    Alfajores Capitan
     </article>
     <article>
       <h3>Galletita</h3>
@@ -45,7 +46,27 @@
     <article><h3>Chupetin</h3>
       Topolin sorpresa
     </article>
+    <div id="panelMsg">
+      Mensaje:
+    </div>
   </section>
+    
+  <aside>
+    
+    formulario:
+    
+    <input type= "text" id="golosina_titulo" />
+    <textarea cols="20" rows="5" 
+              id="golosina_descripcion"> </textarea>
+  <button
+          id= "elBoton"
+          class= "fijate"
+          onclick= "Distribuidora.ofertar();"
+          >Presione!!</button>
+    </aside>  
+    
+    
+    </aside>  
     
     <footer><h2>
       pie de pagina

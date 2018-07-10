@@ -1,4 +1,4 @@
-/* CSS files add styling rules to your content */
+
 
 body {
   background-color: black;
@@ -8,7 +8,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-
+  
 }
 
 h1 {
@@ -22,14 +22,16 @@ header {
 }
 nav {
   background-color: grey;
+  
 }
 section {
   background-color: #FE1010;
-  grid-column: 2 / -1;
+  grid-column: 2 / -2;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(50px, auto);
+  
   
   
   
@@ -50,4 +52,13 @@ section > h2 {
 }
 header, footer, h2, h3 {
   text-align: center;
+}
+
+aside {
+  background-color: orange;
+}
+
+#panelMsg{
+   background-color: orange;
+   grid-column: 1 / -1;  
 }
